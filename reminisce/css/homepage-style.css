@@ -1,0 +1,19 @@
+body {
+    background-color: lightslategray;
+}
+
+h1 {
+    color: white;
+    transform: ;
+}
+
+.scrolling-header {
+    color: white;
+    scale: 2.5;
+    margin: 20px;
+    background-color: lightblue;
+}
+
+.topnav {
+    text-align: center;
+}
