@@ -2,6 +2,14 @@ body {
     background-color: lightslategray;
 }
 
+a {
+    color: red;
+}
+
+a:hover {
+    color: violet;
+}
+
 h1 {
     color: white;
 }
@@ -12,14 +20,6 @@ h1 {
     animation: scrolling infinite alternate;
 }
 
-@keyframes scrolling {
-    100% {
-        transform: 100%;
-    }
-    -100% {
-        transform: -100%;
-    }
-}
 
 .scrolling-header {
     color: white;
@@ -27,6 +27,8 @@ h1 {
     margin: 20px;
     background-color: lightblue;
 }
+
+
 
 /* test css above */
 
@@ -38,15 +40,6 @@ h1 {
     padding: 10px;
 
 }
-
-a {
-    color: red;
-}
-
-a:hover {
-    color: violet;
-}
-
 
 
 .loading {
